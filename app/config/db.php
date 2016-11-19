@@ -1,10 +1,10 @@
 <?php
 return [
     'mysql'=>[
-        'driver' => '',
-        'host' => '',
-        'database' => '',
-        'username' => '',
+        'driver' => 'mysql',
+        'host' => 'localhost',
+        'database' => 'holeproject',
+        'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
         'collation' => 'utf8_unicode_ci',
