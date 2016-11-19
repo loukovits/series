@@ -1,15 +1,5 @@
 <?php
 return [
-    'mysql'=>[
-        'driver' => '',
-        'host' => '',
-        'database' => '',
-        'username' => '',
-        'password' => '',
-        'charset' => '',
-        'collation' => '',
-        'prefix' => ''
-    ],
     'mail'=>[
         'SMTPDebug' => 3,
         'SMTPAuth' => true,
@@ -20,5 +10,6 @@ return [
         'Password' => '',
         'SetFrom' => '',
         'AddReplyTo' => ''
-    ]
-];
+
+        ]
+    ];
